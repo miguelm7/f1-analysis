@@ -1,0 +1,35 @@
+{
+    "resultados": {
+        "cols_tonumeric": [
+            "Pos."
+        ],
+        "fix_cols": [
+            "Pos.",
+            "Piloto",
+            "Puntos",
+            "Season"
+        ],
+        "var_name": "Ronda",
+        "value_name": "Resultado",
+        "cols_id": {
+            "ronda_id": [
+                "Ronda",
+                "Season"
+            ],
+            "result_id": [
+                "Resultado",
+                "Ronda",
+                "Season"
+            ]
+        }
+    },
+    "rondas": {
+        "cols_id": {
+            "ronda_id": [
+                "Ronda",
+                "Season"
+            ]
+        }
+    },
+    "escuderias": {}
+}

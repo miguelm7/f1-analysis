@@ -1,0 +1,46 @@
+{
+    "resultados": {
+        "patterns": [
+            "Pos",
+            "Piloto",
+            "Puntos.csv"
+        ],
+        "fix_cols": [
+            "Pos.",
+            "Piloto",
+            "Puntos",
+            "Season"
+        ]
+    },
+    "rondas": {
+        "patterns": [
+            "Ronda",
+            "Gran Premio",
+            "Circuito"
+        ],
+        "fix_cols": [
+            "Ronda",
+            "Gran Premio",
+            "Circuito",
+            "Fecha",
+            "Season"
+        ]
+    },
+    "escuderias": {
+        "patterns": [
+            "Escuder",
+            "Chasis",
+            "Motor",
+            "Pilotos"
+        ],
+        "fix_cols": [
+            "Escudería",
+            "Chasis",
+            "Motor",
+            "Neu.",
+            "Pilotos",
+            "Season"
+        ]
+    }
+
+}

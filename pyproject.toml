@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "f1-analysis"
+version = "0.1.0"
+description = ""
+authors = ["miguelm7 <miguelmore100@gmail.com>"]
+readme = "README.md"
+packages = [{include = "f1_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+lxml = "^5.2.0"
+html5lib = "^1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
